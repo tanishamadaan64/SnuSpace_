@@ -3,7 +3,7 @@
 **SnuSpace** is a platform for students to access past year resources including question papers, books, and study materials organized by departments and courses with Google Drive integration.
 
 🔗 **Live Site:** [snuspace.vercel.app](https://snuspace.vercel.app/)  
-🔗 **GitHub Repository:** [github.com/tanishamadaan64/SnuSpace](https://github.com/tanishamadaan64/SnuSpace)
+🔗 **GitHub Repository:** [github.com/tanishamadaan64/SnuSpace_](https://github.com/tanishamadaan64/SnuSpace_)
 
 ## ✨ Features
 

@@ -17,7 +17,7 @@
 
 * **Framework:** ReactJs
 * **Styling:** Tailwind CSS  
-* **Language:** TypeScript/JavaScript
+* **Language:** JavaScript
 * **Deployment:** Vercel
 * **Storage:** Google Drive
 

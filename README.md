@@ -15,7 +15,7 @@
 
 ## 🛠️ Tech Stack
 
-* **Framework:** Next.js 14 (App Router)
+* **Framework:** ReactJs
 * **Styling:** Tailwind CSS  
 * **Language:** TypeScript/JavaScript
 * **Deployment:** Vercel

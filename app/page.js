@@ -43,83 +43,83 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Everything You Need</h2>
-              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Access resources from all departments and courses in one place.
-              </p>
-            </div>
-          </div>
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-8">
-            <Card className="flex flex-col items-center text-center">
-              <CardHeader>
-                <div className="p-2 bg-primary/10 rounded-full mb-2">
-                  <FileText className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Past Year Papers</CardTitle>
-                <CardDescription>Access previous years' question papers for better exam preparation.</CardDescription>
-              </CardHeader>
-              <CardContent className="pb-6">
-                <div className="rounded-md overflow-hidden">
-                  <Image
-                    src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=3546&auto=format&fit=crop&ixlib=rb-4.0.3"
-                    alt="Past Year Papers"
-                    width={250}
-                    height={150}
-                    className="object-cover w-full h-auto"
-                  />
-                </div>
-              </CardContent>
-            </Card>
+      // {/* Features Section */}
+      // <section className="w-full py-12 md:py-24 lg:py-32">
+      //   <div className="container px-4 md:px-6">
+      //     <div className="flex flex-col items-center justify-center space-y-4 text-center">
+      //       <div className="space-y-2">
+      //         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Everything You Need</h2>
+      //         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+      //           Access resources from all departments and courses in one place.
+      //         </p>
+      //       </div>
+      //     </div>
+      //     <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-8">
+      //       <Card className="flex flex-col items-center text-center">
+      //         <CardHeader>
+      //           <div className="p-2 bg-primary/10 rounded-full mb-2">
+      //             <FileText className="h-6 w-6 text-primary" />
+      //           </div>
+      //           <CardTitle>Past Year Papers</CardTitle>
+      //           <CardDescription>Access previous years' question papers for better exam preparation.</CardDescription>
+      //         </CardHeader>
+      //         <CardContent className="pb-6">
+      //           <div className="rounded-md overflow-hidden">
+      //             <Image
+      //               src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=3546&auto=format&fit=crop&ixlib=rb-4.0.3"
+      //               alt="Past Year Papers"
+      //               width={250}
+      //               height={150}
+      //               className="object-cover w-full h-auto"
+      //             />
+      //           </div>
+      //         </CardContent>
+      //       </Card>
             
-            <Card className="flex flex-col items-center text-center">
-              <CardHeader>
-                <div className="p-2 bg-primary/10 rounded-full mb-2">
-                  <BookOpen className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Course Materials</CardTitle>
-                <CardDescription>Organized by year and course for easy navigation.</CardDescription>
-              </CardHeader>
-              <CardContent className="pb-6">
-                <div className="rounded-md overflow-hidden">
-                  <Image
-                    src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3"
-                    alt="Course Materials"
-                    width={250}
-                    height={150}
-                    className="object-cover w-full h-auto"
-                  />
-                </div>
-              </CardContent>
-            </Card>
+      //       <Card className="flex flex-col items-center text-center">
+      //         <CardHeader>
+      //           <div className="p-2 bg-primary/10 rounded-full mb-2">
+      //             <BookOpen className="h-6 w-6 text-primary" />
+      //           </div>
+      //           <CardTitle>Course Materials</CardTitle>
+      //           <CardDescription>Organized by year and course for easy navigation.</CardDescription>
+      //         </CardHeader>
+      //         <CardContent className="pb-6">
+      //           <div className="rounded-md overflow-hidden">
+      //             <Image
+      //               src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3"
+      //               alt="Course Materials"
+      //               width={250}
+      //               height={150}
+      //               className="object-cover w-full h-auto"
+      //             />
+      //           </div>
+      //         </CardContent>
+      //       </Card>
 
-            <Card className="flex flex-col items-center text-center">
-              <CardHeader>
-                <div className="p-2 bg-primary/10 rounded-full mb-2">
-                  <PenTool className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Study Notes</CardTitle>
-                <CardDescription>Student-contributed lecture notes and study materials for exam prep.</CardDescription>
-              </CardHeader>
-              <CardContent className="pb-6">
-                <div className="rounded-md overflow-hidden">
-                  <Image
-                    src="https://images.unsplash.com/photo-1550592704-6c76defa9985?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3"
-                    alt="Study Notes"
-                    width={250}
-                    height={150}
-                    className="object-cover w-full h-auto"
-                  />
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
+      //       <Card className="flex flex-col items-center text-center">
+      //         <CardHeader>
+      //           <div className="p-2 bg-primary/10 rounded-full mb-2">
+      //             <PenTool className="h-6 w-6 text-primary" />
+      //           </div>
+      //           <CardTitle>Study Notes</CardTitle>
+      //           <CardDescription>Student-contributed lecture notes and study materials for exam prep.</CardDescription>
+      //         </CardHeader>
+      //         <CardContent className="pb-6">
+      //           <div className="rounded-md overflow-hidden">
+      //             <Image
+      //               src="https://images.unsplash.com/photo-1550592704-6c76defa9985?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3"
+      //               alt="Study Notes"
+      //               width={250}
+      //               height={150}
+      //               className="object-cover w-full h-auto"
+      //             />
+      //           </div>
+      //         </CardContent>
+      //       </Card>
+      //     </div>
+      //   </div>
+      // </section>
 
       {/* Departments Preview */}
       <section className="w-full py-12 bg-muted/50">
